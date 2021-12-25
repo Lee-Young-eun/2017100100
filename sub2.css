@@ -1,0 +1,147 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  background-color: #f0fed7;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  box-shadow: 0 5px 8px rgb(193, 207, 176)
+}
+
+.logo img {
+  width: 160px;
+  height: 60px;
+  margin-left: 90px;
+  position: relative;
+  bottom: -30px;
+  float: left;
+}
+
+nav {
+  width: 1280px;
+  height: 100px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0 70px 0 0;
+}
+
+nav ul li {
+  display: inline;
+  float: right;
+  padding: 45px 35px;
+}
+
+nav ul li a {
+  font-size: 20px;
+  color: #78a944;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a.active {
+  color: rgb(90, 168, 103);
+}
+
+a:hover {
+  color:rgb(0, 195, 255)
+}
+
+.intro {
+  background-color: #fef8d8;
+  max-width: 100%;
+  height: 430px;
+  text-align: center;
+}
+
+.intro img {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  right: 160px;
+  top: 130px;
+}
+
+.intro h2 {
+  margin-top: 10px;
+  margin-left: 90px;
+  line-height: 40px;
+  color: rgb(133, 89, 48)
+}
+
+.banner1 {
+  max-width: 100%;
+  height: 1200px;
+}
+
+.banner1 img {
+  width: 700px;
+  height: 600px;
+  margin-top: 150px;
+}
+
+.banner1 h1 {
+  font-size: 35px;
+  text-align: center;
+  position: relative;
+  bottom: 480px;
+  left: 73px;
+}
+
+.banner1 h2 {
+  font-size: 17px;
+  text-align: center;
+  position: relative;
+  bottom: 445px;
+  left: 120px;
+  line-height: 35px;
+  color: #78a944
+}
+
+.banner2 {
+  max-width: 100%;
+  height: 800px;
+}
+
+.banner2 img {
+  width: 500px;
+  height: 350px;
+  position: relative;
+  bottom: 200px;
+}
+
+.banner2 h4 {
+  text-align: center;
+  position: relative;
+  bottom: 450px;
+  right: 180px;
+  line-height: 30px;
+}
+
+.use {
+  text-align: center;
+  position: relative;
+  bottom: 660px;
+  left: 320px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+footer p {
+  background-color: #f0fed7;
+  text-align: center;
+  height: 300px;
+  margin: 0;
+  padding: 150px 0;
+  box-sizing: border-box;
+  color: rgb(103, 145, 90);
+}
+

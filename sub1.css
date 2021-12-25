@@ -1,0 +1,284 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  background-color: #f0fed7;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  box-shadow: 0 5px 8px rgb(193, 207, 176)
+}
+
+.logo img {
+  width: 160px;
+  height: 60px;
+  margin-left: 90px;
+  position: relative;
+  bottom: -30px;
+  float: left;
+}
+
+nav {
+  width: 1280px;
+  height: 100px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0 70px 0 0;
+}
+
+nav ul li {
+  display: inline;
+  float: right;
+  padding: 45px 35px;
+}
+
+nav ul li a {
+  font-size: 20px;
+  color: #78a944;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a.active {
+  color: rgb(90, 168, 103);
+}
+
+a:hover {
+  color:rgb(0, 195, 255)
+}
+
+.intro {
+  background-color: #fffed4;
+  max-width: 100%;
+  height: 430px;
+  text-align: center;
+}
+
+.intro img {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  right: 160px;
+  top: 130px;
+}
+
+.intro h2 {
+  margin-top: 10px;
+  margin-left: 90px;
+  line-height: 40px;
+  color: rgb(133, 89, 48)
+}
+
+.main_banner1 {
+  max-width: 100%;
+  height: 900px;
+}
+
+.first {
+  background-color: #fefb9e;
+  padding: 50px 100px 50px 100px;
+  text-align: center;
+  font-size: 33px;
+  font-weight: 900;
+  color: #f08623;
+}
+
+.main_banner1 img {
+  margin-top: 100px;
+  padding: 0 0 0 330px;
+  position: relative;
+  right: 60px;
+  width: 110px;
+  height: 90px;
+  text-align: center;
+}
+
+.main_banner1 ul li {
+  display: inline;
+  padding: 131px;
+  position: relative;
+  top: 30px;
+  left: 80px;
+  font-size: 20px;
+}
+
+.environment {
+  position: relative;
+  top: 60px;
+  text-align: center;
+  right: 430px;
+  line-height: 30px;
+  color: rgb(105, 103, 103)
+}
+
+.social {
+  position: relative;
+  text-align: center;
+  bottom: 107px;
+  left: 9px;
+  line-height: 30px;
+  color: rgb(105, 103, 103)
+}
+
+.governance {
+  position: relative;
+  text-align: center;
+  bottom: 245px;
+  left: 460px;
+  line-height: 30px;
+  color: rgb(105, 103, 103)
+}
+
+.one {
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+  color: #729e43;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.main_banner2 {
+  max-width: 100%;
+  height: 900px;
+}
+
+.main_banner2 img {
+  width: 450px;
+  height: 250px;
+  margin-top: 80px;
+}
+
+.main_banner2 h1 {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.main_banner2 h3 {
+  margin-top: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: rgb(105, 103, 103)
+}
+
+.main_banner3 {
+  max-width: 100%;
+  height: 1000px;
+}
+
+.main_banner3 img {
+  width: 400px;
+  height: 300px;
+  margin-top: 70px;
+}
+
+.main_banner3 h3 {
+  margin-top: 50px;
+  text-align: center;
+  line-height: 40px;
+  color: rgb(105, 103, 103)
+}
+
+.main_banner3 h4 {
+  margin-top: inherit;
+  text-align: center;
+  line-height: inherit;
+  color: rgb(105, 103, 103)
+}
+
+.main_banner4 {
+  max-width: 100%;
+  height: 1200px;
+}
+
+.main_banner4 img {
+  width: 700px;
+  height: 600px;
+}
+
+.main_banner4 h1 {
+  font-size: 35px;
+  text-align: center;
+  position: relative;
+  bottom: 480px;
+  left: 73px;
+}
+
+.main_banner4 h2 {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 445px;
+  left: 100px;
+  line-height: 50px;
+  color: #78a944
+}
+
+.korea {
+  text-align: center;
+  position: relative;
+  bottom: 150px;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.main_banner5 {
+  max-width: 100%;
+  height: 800px;
+}
+
+.main_banner5 img {
+  width: 115px;
+  height: 210px;
+  position: relative;
+  bottom: 40px;
+  right: 195px;
+}
+
+.main_banner5 h1 {
+  text-align: center;
+  position: relative;
+  bottom: 150px;
+  left: 50px;
+  font-size: 32px;
+}
+
+.main_banner5 h4 {
+  text-align: center;
+  font-size: 25px;
+  line-height: 70px;
+  color: #729e43;
+  position: relative;
+  bottom: 100px;
+  background-color: rgb(241, 250, 160);
+}
+
+.link {
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+  background-color: #78a944;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 3px solid #78a944;
+}
+
+footer p {
+  background-color: #f0fed7;
+  text-align: center;
+  height: 300px;
+  margin: 0;
+  padding: 150px 0;
+  box-sizing: border-box;
+  color: rgb(103, 145, 90);
+}
